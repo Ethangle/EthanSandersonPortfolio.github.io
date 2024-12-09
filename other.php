@@ -17,32 +17,13 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">Ethan Sanderson</div>
-						<p>Game developer skilled in C#, Unity, and Blender.</p>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="projects.html">Projects</a></li>
-							<li><a href="art.html">Art</a></li>
-							<li><a href="other.html">Other Work</a></li>
-							<li><a href="contact.html">Contact Me</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/ethanjsanderson/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/Ethangle" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="https://www.youtube.com/channel/UCgEqv6bSd-9lus4eBq7pBug" target="_blank" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
-						</ul>
-					</nav>
+				<?php include 'navbar.php' ?>
 
 				<!-- Main -->
 					<div id="main">
 						<header>
-							<h2>Projects</h2>
-							<p>Here are the main game-related projects I have worked on.</p>
+							<h2>Other Work</h2>
+							<p>Some other non game-related projects I've worked on.</p>
 						</header>
 						<!-- Posts -->
 						<section class="posts">

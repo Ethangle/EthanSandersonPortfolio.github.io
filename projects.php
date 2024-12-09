@@ -17,42 +17,33 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">Ethan Sanderson</div>
-						<p>Game developer skilled in C#, Unity, and Blender.</p>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li><a href="projects.html">Projects</a></li>
-							<li class="active"><a href="art.html">Art</a></li>
-							<li><a href="other.html">Other Work</a></li>
-							<li><a href="contact.html">Contact Me</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/ethanjsanderson/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/Ethangle" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="https://www.youtube.com/channel/UCgEqv6bSd-9lus4eBq7pBug" target="_blank" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
-						</ul>
-					</nav>
+				<?php include 'navbar.php' ?>
 
 				<!-- Main -->
 					<div id="main">
 						<header>
-							<h2>Art</h2>
-							<p>Here is some game art that I have made.</p>
+							<h2>Projects</h2>
+							<p>Here are the main game-related projects I have worked on.</p>
 						</header>
 						<!-- Posts -->
 						<section class="posts">
-							
+							<article>
+								<header>
+									<h2><a href="#">I Hate Walking</a></h2>
+								</header>
+								<a href="#" class="image fit"><img src="images/IHateWalking_Thumbnail.png" alt="" /></a>
+								<p>In 'I Hate Walking' you play as a frog that wants to avoid any green land because he really doesn't like walking. Submitted for the game jam 'Mini Jam 166 - Earth' and placed 26th overall out of 211 submissions.</p>
+								<ul class="actions special">
+									<li><a href="https://ethangle.itch.io/i-hate-walking" target="_blank" class="button">View On Itch.io</a></li>
+								</ul>
+							</article>
+
 							<article>
 								<header>
 									<h2><a href="#">Cannot Contain</a></h2>
 								</header>
 								<a href="#" class="image fit"><img src="images/CannotContain_Thumbnail.png" alt="" /></a>
-								<p>Cannot Contain is an upcoming 3D first person horror game I am currently solo developing in Unity, scheduled to release on <a href="https://store.steampowered.com/app/2709510/Cannot_Contain/">Steam</a> in early 2024.</p>
+								<p>'Cannot Contain' is a 3D first person horror game set in an underground containment facility that was developed in Unity and released on <a href="https://store.steampowered.com/app/2709510/Cannot_Contain/">Steam</a> in March 2024.</p>
 								<ul class="actions special">
 									<li><a href="https://store.steampowered.com/app/2709510/Cannot_Contain/" target="_blank" class="button">View On Steam</a></li>
 								</ul>
@@ -62,7 +53,7 @@
 									<h2><a href="#">Lockdown 2020</a></h2>
 								</header>
 								<a href="#" class="image fit"><img src="images/Lockdown2020_Thumbnail.png" alt="" /></a>
-								<p>Lockdown 2020 is a 2D zombie shooter parody game set in the Covid-19 lockdowns of 2020, made as part of my Master's degree.</p>
+								<p>'Lockdown 2020' is a 2D zombie shooter parody game set in the Covid-19 lockdowns of 2020, made in Unity as part of my Master's degree.</p>
 								<ul class="actions special">
 									<li><a href="https://ethangle.itch.io/lockdown-2020" target="_blank" class="button">View On Itch.io</a></li>
 								</ul>
@@ -72,7 +63,7 @@
 									<h2><a href="#">VR Locomotion</a></h2>
 								</header>
 								<a href="#" class="image fit"><img src="images/VRProject_Thumbnail.png" alt="" /></a>
-								<p>Experimental method for VR locomotion across large distances that attempts to reduce motion sickness, made as part of my Master's dissertation.</p>
+								<p>Experimental method for VR locomotion across large distances that attempts to reduce motion sickness, made as part of my <a href="vr-locomotion-report.pdf" target="_blank">Master's dissertation.</a></p>
 								<ul class="actions special">
 									<li><a href="https://github.com/Ethangle/VR-Locomotion-Project.git" target="_blank" class="button">View On GitHub</a></li>
 								</ul>
